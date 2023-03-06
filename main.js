@@ -6,3 +6,22 @@ function menuShow(){
     menuMobile.classList.add('open');
   }
 }
+
+
+function acao(){
+  let fade = document.querySelector('.fade')
+  fade.style.display = 'block';
+
+  let modal = document.querySelector('.tela--cadastro')
+  modal.style.display = 'block';
+}
+
+
+function fechar(){
+  let fade = document.querySelector('.fade')
+  fade.style.display = 'none';
+
+  let modal = document.querySelector('.tela--cadastro')
+  modal.style.display = 'none';
+
+}
