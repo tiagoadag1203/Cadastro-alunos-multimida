@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 0.5rem;
 }
 
 .navbar ul {
@@ -48,7 +48,7 @@ body {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     border: none;
-    color: var(---vermelho-escuro);
+    color: var(--vermelho-escuro);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -100,7 +100,6 @@ body {
         align-items: center;
         gap: 3rem;
         padding: 1.875rem;
-        height: 100vh;
     }
 
     .mobile-menu ul {
@@ -127,4 +126,56 @@ body {
         display: flex;
     }
 
+}
+
+
+
+/* PESQUISA E CADASTRO DE USUARIOS */
+
+.search--usuarios{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 20px;
+    justify-content: start;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.search--usuarios input{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #296FA8;
+    border-radius: 10px;
+    padding: 0.3125rem;
+}
+
+.botao--buscar{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    width: 5rem;
+    padding: 0.3125rem;
+    background: var(--azul-claro);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    color: var(--azul-escuro);
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao--cadastro{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 7rem;
+    padding: 0.3125rem;
+    background: var(--verde-claro);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    color: var(--verde-escuro);
+    font-family: 'Poppins', sans-serif;
 }
