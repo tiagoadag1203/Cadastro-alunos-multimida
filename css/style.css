@@ -204,14 +204,25 @@ body {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-.cards--alunos input {
+.info--alunos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.img--aluno{
+    display: none;
+}
+
+.info--alunos input {
     width: 24px;
     height: 24px;
     border: 1px solid #000AFF;
     border-radius: 5px;
 }
 
-.cards--alunos ul {
+.info--alunos ul {
     font-size: 0.8125rem;
 }
 
@@ -254,6 +265,7 @@ body {
 /* MODAL */
 
 .tela--cadastro {
+    display: none;
     width: 300px;
     height: 650px;
     background-color: #FDFDFD;
