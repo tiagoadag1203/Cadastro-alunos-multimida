@@ -308,6 +308,22 @@ body {
     color: var(--azul-escuro);
 }
 
+.expandir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn--expandir{
+    background-color: transparent;
+    border: none;
+}
+
+.btn--expandir svg{
+    font-size: 1.5rem;
+    color: var(--azul-escuro);
+}
+
 @media screen and (min-width: 731px) {
     .botoes--editar {
         flex-direction: row;
