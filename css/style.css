@@ -185,19 +185,34 @@ body {
     .search--usuarios {
         display: grid;
         grid-template-columns: 19% 19% 19% 19% 19%;
-        grid-template-rows: auto;
+        grid-template-rows: 30px 30px;
         justify-content: space-between;
     }
 
     .botao--cadastro {
         grid-column-start: 5;
         grid-row-start: 1;
-        background-image: url('/');
     }
 }
 
-@media screen and (min-width: 731px) {
-    
+@media screen and (min-width: 1090px) {
+    .search--usuarios input {
+        font-size: 1rem;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .botao--buscar {
+        font-size: 1rem;
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .botao--cadastro{
+        font-size: 1rem;
+        grid-column-start: 5;
+        grid-row-start: 1;
+    }
 }
 
 
@@ -295,6 +310,21 @@ body {
         background: #FFFFFF;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 1090px) {
+    .info--alunos ul {
+        font-size: 1rem;
+    }
+
+    .btn--apagar, .btn--editar{
+        width: 45px;
+        height: 45px;
+    }
+
+    .btn--apagar, .btn--editar svg{
+        font-size: 1rem;
     }
 }
 
