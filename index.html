@@ -47,37 +47,58 @@
             <div class="search--usuarios">
                 <input type="search" name="myInput" placeholder="Buscar Usuário" size="20px" required>
                 <button class="botao--buscar">Buscar</button>
-                <button onclick="acao()" class="botao--cadastro">Cadastro</button>
+                <button onclick="acao()" class="botao--cadastro">Cadastrar</button>
                 <div class="fade"></div>
             </div>
             <div class="tela--cadastro">
                 <div class="fechar"><i onclick="fechar()" class="fa-solid fa-x"></i></i></div>
                 <hr>
                 <div class="formulario">
-                    <div class="img--usuario"><i class="fa-solid fa-user"></i></div>
-                    <button class="add-img">Adicionar Imagem</button>
+                    <div class="foto--perfil">
+                        <div class="img--usuario"><i class="fa-solid fa-user"></i></div>
+                        <button class="add-img">Adicionar Imagem</button>
+                    </div>
                     <form action="">
-                        <label for="">Nome
+                        <label for="">Nome:
                             <input type="text">
                         </label>
-                        <label for="">Nome
+                        <label for="">Idade:
                             <input type="text">
                         </label>
-                        <label for="">Nome
-                            <input type="text">
+                        <label for="">Senha:
+                            <input type="password">
                         </label>
-                        <label for="">Nome
-                            <input type="text">
+                        <label for="">E-mail:
+                            <input type="email">
                         </label>
                     </form>
-                    <hr>
-                    <div></div>
+                </div>
+                <hr>
+                <div class="botoes--forms">
+                    <button class="btn--cancelar">Cancelar</button>
+                    <button class="btn--salvar">Salvar</button>
                 </div>
             </div>
         </section>
 
         <section>
             <div class="alunos">
+                <div class="cards--alunos">
+                    <div class="info--alunos">
+                        <input type="checkbox">
+                        <div class="img--aluno"><i class="fa-solid fa-user"></i></div>
+                        <ul>
+                            <li>Nome: Tiago</li>
+                            <li>E-Mail: tiago.adag@gmail.com</li>
+                            <li>Idade: 17</li>
+                            <li>Senha: *****</li>
+                        </ul>
+                    </div>
+                    <div class="botoes--editar">
+                        <button class="btn--apagar"><i class="fa-solid fa-trash"></i></button>
+                        <button class="btn--editar"><i class="fa-solid fa-pen"></i></button>
+                    </div>
+                </div>
                 <div class="cards--alunos">
                     <div class="info--alunos">
                         <input type="checkbox">
