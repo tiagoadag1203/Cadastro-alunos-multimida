@@ -326,6 +326,15 @@ body {
     .btn--apagar, .btn--editar svg{
         font-size: 1rem;
     }
+
+    .img--aluno {
+        width: 80px;
+        height: 80px;
+    }
+
+    .img--aluno svg {
+        font-size: 2rem;
+    }
 }
 
 
