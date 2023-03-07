@@ -5,7 +5,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* CABEÇALHO */
 
 .nav {
@@ -22,6 +21,10 @@ body {
 .navbar ul {
     display: flex;
     gap: 1.25rem;
+}
+
+.navbar a {
+    color: black;
 }
 
 .navbar hr {
@@ -116,6 +119,10 @@ body {
 
     .mobile-menu li {
         font-size: 1.5rem;
+    }
+
+    .mobile-menu a {
+        color: black;
     }
 
     .buttons-sign-mobile {
@@ -484,7 +491,7 @@ body {
 
     .formulario {
         flex-direction: row;
-        justify-content:space-around;
+        justify-content: space-around;
     }
 
     .img--usuario {
