@@ -373,6 +373,7 @@ body {
 
 .tela--cadastro {
     display: none;
+    height: 500px;
     background-color: #FDFDFD;
     position: absolute;
     top: 50%;
@@ -381,6 +382,7 @@ body {
     padding: 0.5rem 0rem;
     border-radius: 0.625rem;
     z-index: 999;
+    overflow: auto;
 }
 
 .fechar {
