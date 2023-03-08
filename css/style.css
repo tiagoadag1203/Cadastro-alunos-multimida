@@ -133,7 +133,6 @@ body {
     }
 
     .open {
-        display: block;
         display: flex;
     }
 
